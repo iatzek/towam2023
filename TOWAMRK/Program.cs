@@ -24,13 +24,13 @@ namespace TOWAMRK
             if (delta > 0)
             {
 
-                double x1 = (-b - Math.Sqrt(delta)) / 2 * a;
-                double x2 = (-b + Math.Sqrt(delta)) / 2 * a;
+                double x1 = (-b - Math.Sqrt(delta)) / 2 / a;
+                double x2 = (-b + Math.Sqrt(delta)) / (2 * a);
 
                 Console.WriteLine("x1={0}, x2={1}", x1, x2);
             } else if (delta == 0)
             {
-                double x = (-b ) / 2 * a;
+                double x = (-b ) / (2 * a);
 
                 Console.WriteLine("podwojny pierwiastek x={0}", x);
 
