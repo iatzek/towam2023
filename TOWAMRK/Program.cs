@@ -10,7 +10,7 @@ namespace TOWAMRK
 
             double a, b, c;
 
-            Console.WriteLine("podaj wsp. ax^2+bx+c=0");
+            Console.WriteLine("podaj współczynniki ax^2+bx+c=0");
 
             Console.WriteLine("podaj a");
             a = Double.Parse(Console.ReadLine());
