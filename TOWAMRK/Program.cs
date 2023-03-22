@@ -8,10 +8,16 @@ namespace TOWAMRK
         {
             Console.WriteLine("Równania kwadratowe");
 
-            double a = 1;
-            double b = 0;
-            double c = -9;
+            double a, b, c;
 
+            Console.WriteLine("podaj wsp. ax^2+bx+c=0");
+
+            Console.WriteLine("podaj a");
+            a = Double.Parse(Console.ReadLine());
+            Console.WriteLine("podaj b");
+            b = Double.Parse(Console.ReadLine());
+            Console.WriteLine("podaj c");
+            c = Double.Parse(Console.ReadLine());
 
             double delta = b * b - 4 * a * c;
 
